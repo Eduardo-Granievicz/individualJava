@@ -23,12 +23,9 @@ public class projeto {
         
         Integer numeroDigitado = leitor.nextInt();
         
-            while (numeroDigitado > 4) {                
-                if (numeroDigitado > 4){
-                    System.out.println("Favor inserir um número válido");
-                   
-            }
-            }
+           
+
+            
         
         switch (numeroDigitado) {
                 case 1:
@@ -60,7 +57,7 @@ public class projeto {
 
                 case 2:
                 System.out.println("Você já foi para quantos campeonatos de CSGO?");
-                Integer camps = leitor.nextInt();
+                Integer camps = leitor.nextInt();                
                 if (camps == 0){
                 System.out.println("Que isso, esta precisando juntar um dinheiro em");
                 }
@@ -95,18 +92,17 @@ public class projeto {
 
 
                 case 4:
-                System.out.println("Obrigado por utilizar o sistema!");
+                System.out.println("Obrigado pela a atenção, volte sempre!");
                 continuarPrograma = false;
- 
                 break;
+
                 default:
-                System.out.println("Numero inválido");
-                System.out.println("Digite um número de 1 a 4");
-                Integer valido = leitor.nextInt();
+                System.out.println("Selecione um número válido!");
 
                 
+                
                
-                break;
+               
                
                 }
               } while (continuarPrograma);
